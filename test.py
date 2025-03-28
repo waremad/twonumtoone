@@ -11,3 +11,7 @@ if 0.1:
 
 if not(0):
     print(False)
+
+a = [1,2]
+b = [3,4]
+print(a+b)
