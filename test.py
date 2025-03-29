@@ -1,4 +1,5 @@
 import numpy as  np
+import random
 
 a = np.array(["1","2","3"])
 
@@ -15,3 +16,11 @@ if not(0):
 a = [1,2]
 b = [3,4]
 print(a+b)
+
+def floatset():
+    pass
+
+for i in range(10):
+    n = random.randint(1,9999)/100
+    print(n,str(n*10**2),n*10**2%1)
+
